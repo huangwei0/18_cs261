@@ -1,0 +1,909 @@
+desc: (none)
+cmd: a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=220214
+mem_heap_B=23784
+mem_heap_extra_B=15856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=6255531
+mem_heap_B=24072
+mem_heap_extra_B=16048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 24072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 24000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 24000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 24000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=6557698
+mem_heap_B=47424
+mem_heap_extra_B=31616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=30617582
+mem_heap_B=48072
+mem_heap_extra_B=32048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 48072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 48000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 48000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 48000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 48000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=31221974
+mem_heap_B=94824
+mem_heap_extra_B=63216
+mem_stacks_B=0
+heap_tree=detailed
+n2: 94824 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 94752 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 94752 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 94752 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 94752 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=127338918
+mem_heap_B=96072
+mem_heap_extra_B=64048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 96072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 96000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 96000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 96000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 96000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=128538325
+mem_heap_B=187584
+mem_heap_extra_B=125056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=512778269
+mem_heap_B=192072
+mem_heap_extra_B=128048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 192072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 192000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 192000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 192000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 192000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=513916181
+mem_heap_B=102504
+mem_heap_extra_B=68336
+mem_stacks_B=0
+heap_tree=detailed
+n2: 102504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 102432 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 102432 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 102432 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 102432 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=515212661
+mem_heap_B=382824
+mem_heap_extra_B=255216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2051653873
+mem_heap_B=384072
+mem_heap_extra_B=256048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 384072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 384000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 384000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 384000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 384000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=2052457396
+mem_heap_B=151704
+mem_heap_extra_B=101136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2053682447
+mem_heap_B=151512
+mem_heap_extra_B=101008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2054907887
+mem_heap_B=416472
+mem_heap_extra_B=277648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2055520607
+mem_heap_B=548952
+mem_heap_extra_B=365968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2056436579
+mem_heap_B=747000
+mem_heap_extra_B=498000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=8201401477
+mem_heap_B=768072
+mem_heap_extra_B=512048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 768072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 768000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 768000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 768000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 768000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=8202602653
+mem_heap_B=420720
+mem_heap_extra_B=280480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=8203803829
+mem_heap_B=73392
+mem_heap_extra_B=48928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=8204704438
+mem_heap_B=139920
+mem_heap_extra_B=93280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=8205905014
+mem_heap_B=399504
+mem_heap_extra_B=266336
+mem_stacks_B=0
+heap_tree=detailed
+n2: 399504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 399432 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 399432 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 399432 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 399432 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=8207105590
+mem_heap_B=659088
+mem_heap_extra_B=439392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=8208306166
+mem_heap_B=918672
+mem_heap_extra_B=612448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=8209046758
+mem_heap_B=1078800
+mem_heap_extra_B=719200
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1078800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1078728 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 1078728 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 1078728 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 1078728 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=8209927654
+mem_heap_B=1269264
+mem_heap_extra_B=846176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=8211028774
+mem_heap_B=1507344
+mem_heap_extra_B=1004896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=32788893341
+mem_heap_B=1536072
+mem_heap_extra_B=1024048
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1536072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1536000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 1536000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 1536000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 1536000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=32789774469
+mem_heap_B=1281264
+mem_heap_extra_B=854176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=32790655597
+mem_heap_B=1026480
+mem_heap_extra_B=684320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=32791536725
+mem_heap_B=771696
+mem_heap_extra_B=514464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=32792417853
+mem_heap_B=516912
+mem_heap_extra_B=344608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=32793298981
+mem_heap_B=262128
+mem_heap_extra_B=174752
+mem_stacks_B=0
+heap_tree=detailed
+n2: 262128 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 262056 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 262056 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 262056 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 262056 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=32794180109
+mem_heap_B=7344
+mem_heap_extra_B=4896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=32794840869
+mem_heap_B=137448
+mem_heap_extra_B=91632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=32795721765
+mem_heap_B=327912
+mem_heap_extra_B=218608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=32796602661
+mem_heap_B=518376
+mem_heap_extra_B=345584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=32797263333
+mem_heap_B=661224
+mem_heap_extra_B=440816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=32798144229
+mem_heap_B=851688
+mem_heap_extra_B=567792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=32799025125
+mem_heap_B=1042152
+mem_heap_extra_B=694768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=32799906021
+mem_heap_B=1232616
+mem_heap_extra_B=821744
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1232616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1232544 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 1232544 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 1232544 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 1232544 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=32800786917
+mem_heap_B=1423080
+mem_heap_extra_B=948720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=32801667813
+mem_heap_B=1613544
+mem_heap_extra_B=1075696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=32802548709
+mem_heap_B=1804008
+mem_heap_extra_B=1202672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=32803429605
+mem_heap_B=1994472
+mem_heap_extra_B=1329648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=32804310501
+mem_heap_B=2184936
+mem_heap_extra_B=1456624
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2184936 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2184864 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 2184864 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 2184864 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 2184864 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=32805191397
+mem_heap_B=2375400
+mem_heap_extra_B=1583600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=32806072293
+mem_heap_B=2565864
+mem_heap_extra_B=1710576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=32806953189
+mem_heap_B=2756328
+mem_heap_extra_B=1837552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=32808274533
+mem_heap_B=3042024
+mem_heap_extra_B=2028016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=131115873438
+mem_heap_B=3072072
+mem_heap_extra_B=2048048
+mem_stacks_B=0
+heap_tree=peak
+n2: 3072072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3072000 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 3072000 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 3072000 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 3072000 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=131116093720
+mem_heap_B=3008352
+mem_heap_extra_B=2005568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=131116314002
+mem_heap_B=2944656
+mem_heap_extra_B=1963104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=131116534284
+mem_heap_B=2880960
+mem_heap_extra_B=1920640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=131116754566
+mem_heap_B=2817264
+mem_heap_extra_B=1878176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=131116974848
+mem_heap_B=2753568
+mem_heap_extra_B=1835712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=131117195130
+mem_heap_B=2689872
+mem_heap_extra_B=1793248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=131117415412
+mem_heap_B=2626176
+mem_heap_extra_B=1750784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=131117635694
+mem_heap_B=2562480
+mem_heap_extra_B=1708320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=131117855976
+mem_heap_B=2498784
+mem_heap_extra_B=1665856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=131118076258
+mem_heap_B=2435088
+mem_heap_extra_B=1623392
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2435088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2435016 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 2435016 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 2435016 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 2435016 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=131118296540
+mem_heap_B=2371392
+mem_heap_extra_B=1580928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=131118516822
+mem_heap_B=2307696
+mem_heap_extra_B=1538464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=131118737104
+mem_heap_B=2244000
+mem_heap_extra_B=1496000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=131118957386
+mem_heap_B=2180304
+mem_heap_extra_B=1453536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=131119177668
+mem_heap_B=2116608
+mem_heap_extra_B=1411072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=131119397950
+mem_heap_B=2052912
+mem_heap_extra_B=1368608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=131119618232
+mem_heap_B=1989216
+mem_heap_extra_B=1326144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=131119838514
+mem_heap_B=1925520
+mem_heap_extra_B=1283680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=131120058796
+mem_heap_B=1861824
+mem_heap_extra_B=1241216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=131120279078
+mem_heap_B=1798128
+mem_heap_extra_B=1198752
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1798128 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1798056 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 1798056 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 1798056 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 1798056 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=71
+#-----------
+time=131120499360
+mem_heap_B=1734432
+mem_heap_extra_B=1156288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=131120719642
+mem_heap_B=1670736
+mem_heap_extra_B=1113824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=131120939924
+mem_heap_B=1607040
+mem_heap_extra_B=1071360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=131121160206
+mem_heap_B=1543344
+mem_heap_extra_B=1028896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=131121380488
+mem_heap_B=1479648
+mem_heap_extra_B=986432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=131121600770
+mem_heap_B=1415952
+mem_heap_extra_B=943968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=131121821052
+mem_heap_B=1352256
+mem_heap_extra_B=901504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=131122041334
+mem_heap_B=1288560
+mem_heap_extra_B=859040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=131122261616
+mem_heap_B=1224864
+mem_heap_extra_B=816576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=131122481898
+mem_heap_B=1161168
+mem_heap_extra_B=774112
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1161168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1161096 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 1161096 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 1161096 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 1161096 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=131122702180
+mem_heap_B=1097472
+mem_heap_extra_B=731648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=131122922462
+mem_heap_B=1033776
+mem_heap_extra_B=689184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=131123142744
+mem_heap_B=970080
+mem_heap_extra_B=646720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=131123363026
+mem_heap_B=906384
+mem_heap_extra_B=604256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=131123583308
+mem_heap_B=842688
+mem_heap_extra_B=561792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=131123803590
+mem_heap_B=778992
+mem_heap_extra_B=519328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=131124023872
+mem_heap_B=715296
+mem_heap_extra_B=476864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=131124244154
+mem_heap_B=651600
+mem_heap_extra_B=434400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=131124464436
+mem_heap_B=587904
+mem_heap_extra_B=391936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=131124684718
+mem_heap_B=524208
+mem_heap_extra_B=349472
+mem_stacks_B=0
+heap_tree=detailed
+n2: 524208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 524136 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+  n1: 524136 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+   n1: 524136 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+    n0: 524136 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+ n0: 72 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=91
+#-----------
+time=131124905000
+mem_heap_B=460512
+mem_heap_extra_B=307008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=131125125282
+mem_heap_B=396816
+mem_heap_extra_B=264544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=131125345564
+mem_heap_B=333120
+mem_heap_extra_B=222080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=131125565846
+mem_heap_B=269424
+mem_heap_extra_B=179616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=95
+#-----------
+time=131125786128
+mem_heap_B=205728
+mem_heap_extra_B=137152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=96
+#-----------
+time=131126006410
+mem_heap_B=142032
+mem_heap_extra_B=94688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=97
+#-----------
+time=131126226692
+mem_heap_B=78336
+mem_heap_extra_B=52224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=98
+#-----------
+time=131126446974
+mem_heap_B=14640
+mem_heap_extra_B=9760
+mem_stacks_B=0
+heap_tree=empty

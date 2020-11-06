@@ -1,0 +1,158 @@
+--------------------------------------------------------------------------------
+Command:            ./a.out
+Massif arguments:   (none)
+ms_print arguments: massif.out.13154
+--------------------------------------------------------------------------------
+
+
+    KB
+500.0^                  :::::::::::::::::::::::::::::::::::::::::::::::::::::#
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |    ::::::::::::::@                                                    #
+     |    :             @                                                    #
+     |    :             @                                                    #
+     |    :             @                                                    #
+     |    :             @                                                    #
+     | :::@             @                                                    #
+     | :  @             @                                                    #
+     | :  @             @                                                    #
+     |:@  @             @                                                    #
+     |@@  @             @                                                    #
+   0 +----------------------------------------------------------------------->Gi
+     0                                                                   254.3
+
+Number of snapshots: 41
+ Detailed snapshots: [3, 8, 13, 18, 23, 28, 33, 38 (peak)]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1        110,428               24               16             8            0
+  2        110,481            4,032            4,016            16            0
+  3     12,707,913            4,032            4,016            16            0
+99.60% (4,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.21% (4,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.21% (4,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.21% (4,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.40% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  4     12,707,913               24               16             8            0
+  5     12,707,952                0                0             0            0
+  6     12,707,996               24               16             8            0
+  7     12,708,049            8,032            8,016            16            0
+  8     62,891,938            8,032            8,016            16            0
+99.80% (8,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.60% (8,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.60% (8,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.60% (8,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.20% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  9     62,891,938               24               16             8            0
+ 10     62,891,977                0                0             0            0
+ 11     62,892,021               24               16             8            0
+ 12     62,892,074           16,032           16,016            16            0
+ 13    263,257,210           16,032           16,016            16            0
+99.90% (16,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.80% (16,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.80% (16,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.80% (16,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.10% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 14    263,257,210               24               16             8            0
+ 15    263,257,249                0                0             0            0
+ 16    263,257,293               24               16             8            0
+ 17    263,257,346           32,032           32,016            16            0
+ 18  1,063,984,714           32,032           32,016            16            0
+99.95% (32,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.90% (32,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.90% (32,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.90% (32,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.05% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 19  1,063,984,714               24               16             8            0
+ 20  1,063,984,753                0                0             0            0
+ 21  1,063,984,797               24               16             8            0
+ 22  1,063,984,850           64,032           64,016            16            0
+ 23  4,265,436,239           64,032           64,016            16            0
+99.98% (64,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.95% (64,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.95% (64,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.95% (64,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.02% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 24  4,265,436,239               24               16             8            0
+ 25  4,265,436,278                0                0             0            0
+ 26  4,265,436,322               24               16             8            0
+ 27  4,265,436,375          128,032          128,016            16            0
+ 28 17,068,336,024          128,032          128,016            16            0
+99.99% (128,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.98% (128,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.98% (128,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.98% (128,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.01% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 29 17,068,336,024               24               16             8            0
+ 30 17,068,336,063                0                0             0            0
+ 31 17,068,336,107               24               16             8            0
+ 32 17,068,336,160          256,032          256,016            16            0
+ 33 68,274,131,809          256,032          256,016            16            0
+99.99% (256,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.99% (256,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.99% (256,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.99% (256,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.01% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 34 68,274,131,809               24               16             8            0
+ 35 68,274,131,848                0                0             0            0
+ 36 68,274,131,892               24               16             8            0
+ 37 68,274,131,945          512,032          512,016            16            0
+ 38 273,085,719,832          512,032          512,016            16            0
+100.00% (512,016B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.99% (512,000B) 0x4006FA: _initDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->99.99% (512,000B) 0x4007A9: createDynArr (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->99.99% (512,000B) 0x40104B: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     
+->00.00% (16B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 39 273,085,719,832               24               16             8            0
+ 40 273,085,719,871                0                0             0            0

@@ -1,0 +1,345 @@
+--------------------------------------------------------------------------------
+Command:            a.out
+Massif arguments:   (none)
+ms_print arguments: massif.out.18377
+--------------------------------------------------------------------------------
+
+
+    MB
+4.883^                                                                       #
+     |                  :::::::::::::::::::::::::::::::::::::::::::::::::::::#
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  :                                                    #
+     |                  @                                                    #
+     |                  @                                                    #
+     |                  @                                                    #
+     |                  @                                                    #
+     |                  @                                                    #
+     |    ::::::::::::::@                                                    #
+     |    :             @                                                    #
+     |    @             @                                                    #
+     |    @             @                                                    #
+     |    @             @                                                    #
+     | :::@             @                                                    #
+     | :  @             @                                                    #
+     |:@  @             @                                                    #
+     |@@  @             @                                                    #
+   0 +----------------------------------------------------------------------->Gi
+     0                                                                   122.1
+
+Number of snapshots: 99
+ Detailed snapshots: [2, 4, 5, 6, 8, 9, 11, 17, 21, 24, 27, 32, 40, 45, 50 (peak), 60, 70, 80, 90]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1        220,214           39,640           23,784        15,856            0
+  2      6,255,531           40,120           24,072        16,048            0
+60.00% (24,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.82% (24,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.82% (24,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.82% (24,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.82% (24,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.18% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  3      6,557,698           79,040           47,424        31,616            0
+  4     30,617,582           80,120           48,072        32,048            0
+60.00% (48,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.91% (48,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.91% (48,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.91% (48,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.91% (48,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.09% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  5     31,221,974          158,040           94,824        63,216            0
+60.00% (94,824B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.95% (94,752B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.95% (94,752B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.95% (94,752B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.95% (94,752B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.05% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  6    127,338,918          160,120           96,072        64,048            0
+60.00% (96,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.96% (96,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.96% (96,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.96% (96,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.96% (96,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.04% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  7    128,538,325          312,640          187,584       125,056            0
+  8    512,778,269          320,120          192,072       128,048            0
+60.00% (192,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.98% (192,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.98% (192,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.98% (192,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.98% (192,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.02% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  9    513,916,181          170,840          102,504        68,336            0
+60.00% (102,504B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.96% (102,432B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.96% (102,432B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.96% (102,432B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.96% (102,432B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.04% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 10    515,212,661          638,040          382,824       255,216            0
+ 11  2,051,653,873          640,120          384,072       256,048            0
+60.00% (384,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.99% (384,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.99% (384,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.99% (384,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.99% (384,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.01% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 12  2,052,457,396          252,840          151,704       101,136            0
+ 13  2,053,682,447          252,520          151,512       101,008            0
+ 14  2,054,907,887          694,120          416,472       277,648            0
+ 15  2,055,520,607          914,920          548,952       365,968            0
+ 16  2,056,436,579        1,245,000          747,000       498,000            0
+ 17  8,201,401,477        1,280,120          768,072       512,048            0
+60.00% (768,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.99% (768,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.99% (768,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.99% (768,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.99% (768,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.01% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 18  8,202,602,653          701,200          420,720       280,480            0
+ 19  8,203,803,829          122,320           73,392        48,928            0
+ 20  8,204,704,438          233,200          139,920        93,280            0
+ 21  8,205,905,014          665,840          399,504       266,336            0
+60.00% (399,504B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.99% (399,432B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.99% (399,432B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.99% (399,432B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.99% (399,432B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.01% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 22  8,207,105,590        1,098,480          659,088       439,392            0
+ 23  8,208,306,166        1,531,120          918,672       612,448            0
+ 24  8,209,046,758        1,798,000        1,078,800       719,200            0
+60.00% (1,078,800B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (1,078,728B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (1,078,728B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (1,078,728B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (1,078,728B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 25  8,209,927,654        2,115,440        1,269,264       846,176            0
+ 26  8,211,028,774        2,512,240        1,507,344     1,004,896            0
+ 27 32,788,893,341        2,560,120        1,536,072     1,024,048            0
+60.00% (1,536,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (1,536,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (1,536,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (1,536,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (1,536,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 28 32,789,774,469        2,135,440        1,281,264       854,176            0
+ 29 32,790,655,597        1,710,800        1,026,480       684,320            0
+ 30 32,791,536,725        1,286,160          771,696       514,464            0
+ 31 32,792,417,853          861,520          516,912       344,608            0
+ 32 32,793,298,981          436,880          262,128       174,752            0
+60.00% (262,128B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.98% (262,056B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.98% (262,056B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.98% (262,056B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.98% (262,056B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.02% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 33 32,794,180,109           12,240            7,344         4,896            0
+ 34 32,794,840,869          229,080          137,448        91,632            0
+ 35 32,795,721,765          546,520          327,912       218,608            0
+ 36 32,796,602,661          863,960          518,376       345,584            0
+ 37 32,797,263,333        1,102,040          661,224       440,816            0
+ 38 32,798,144,229        1,419,480          851,688       567,792            0
+ 39 32,799,025,125        1,736,920        1,042,152       694,768            0
+ 40 32,799,906,021        2,054,360        1,232,616       821,744            0
+60.00% (1,232,616B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (1,232,544B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (1,232,544B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (1,232,544B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (1,232,544B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 41 32,800,786,917        2,371,800        1,423,080       948,720            0
+ 42 32,801,667,813        2,689,240        1,613,544     1,075,696            0
+ 43 32,802,548,709        3,006,680        1,804,008     1,202,672            0
+ 44 32,803,429,605        3,324,120        1,994,472     1,329,648            0
+ 45 32,804,310,501        3,641,560        2,184,936     1,456,624            0
+60.00% (2,184,936B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (2,184,864B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (2,184,864B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (2,184,864B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (2,184,864B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 46 32,805,191,397        3,959,000        2,375,400     1,583,600            0
+ 47 32,806,072,293        4,276,440        2,565,864     1,710,576            0
+ 48 32,806,953,189        4,593,880        2,756,328     1,837,552            0
+ 49 32,808,274,533        5,070,040        3,042,024     2,028,016            0
+ 50 131,115,873,438        5,120,120        3,072,072     2,048,048            0
+60.00% (3,072,072B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (3,072,000B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (3,072,000B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (3,072,000B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (3,072,000B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 51 131,116,093,720        5,013,920        3,008,352     2,005,568            0
+ 52 131,116,314,002        4,907,760        2,944,656     1,963,104            0
+ 53 131,116,534,284        4,801,600        2,880,960     1,920,640            0
+ 54 131,116,754,566        4,695,440        2,817,264     1,878,176            0
+ 55 131,116,974,848        4,589,280        2,753,568     1,835,712            0
+ 56 131,117,195,130        4,483,120        2,689,872     1,793,248            0
+ 57 131,117,415,412        4,376,960        2,626,176     1,750,784            0
+ 58 131,117,635,694        4,270,800        2,562,480     1,708,320            0
+ 59 131,117,855,976        4,164,640        2,498,784     1,665,856            0
+ 60 131,118,076,258        4,058,480        2,435,088     1,623,392            0
+60.00% (2,435,088B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (2,435,016B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (2,435,016B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (2,435,016B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (2,435,016B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 61 131,118,296,540        3,952,320        2,371,392     1,580,928            0
+ 62 131,118,516,822        3,846,160        2,307,696     1,538,464            0
+ 63 131,118,737,104        3,740,000        2,244,000     1,496,000            0
+ 64 131,118,957,386        3,633,840        2,180,304     1,453,536            0
+ 65 131,119,177,668        3,527,680        2,116,608     1,411,072            0
+ 66 131,119,397,950        3,421,520        2,052,912     1,368,608            0
+ 67 131,119,618,232        3,315,360        1,989,216     1,326,144            0
+ 68 131,119,838,514        3,209,200        1,925,520     1,283,680            0
+ 69 131,120,058,796        3,103,040        1,861,824     1,241,216            0
+ 70 131,120,279,078        2,996,880        1,798,128     1,198,752            0
+60.00% (1,798,128B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (1,798,056B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (1,798,056B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (1,798,056B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (1,798,056B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 71 131,120,499,360        2,890,720        1,734,432     1,156,288            0
+ 72 131,120,719,642        2,784,560        1,670,736     1,113,824            0
+ 73 131,120,939,924        2,678,400        1,607,040     1,071,360            0
+ 74 131,121,160,206        2,572,240        1,543,344     1,028,896            0
+ 75 131,121,380,488        2,466,080        1,479,648       986,432            0
+ 76 131,121,600,770        2,359,920        1,415,952       943,968            0
+ 77 131,121,821,052        2,253,760        1,352,256       901,504            0
+ 78 131,122,041,334        2,147,600        1,288,560       859,040            0
+ 79 131,122,261,616        2,041,440        1,224,864       816,576            0
+ 80 131,122,481,898        1,935,280        1,161,168       774,112            0
+60.00% (1,161,168B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->60.00% (1,161,096B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->60.00% (1,161,096B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->60.00% (1,161,096B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->60.00% (1,161,096B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.00% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 81 131,122,702,180        1,829,120        1,097,472       731,648            0
+ 82 131,122,922,462        1,722,960        1,033,776       689,184            0
+ 83 131,123,142,744        1,616,800          970,080       646,720            0
+ 84 131,123,363,026        1,510,640          906,384       604,256            0
+ 85 131,123,583,308        1,404,480          842,688       561,792            0
+ 86 131,123,803,590        1,298,320          778,992       519,328            0
+ 87 131,124,023,872        1,192,160          715,296       476,864            0
+ 88 131,124,244,154        1,086,000          651,600       434,400            0
+ 89 131,124,464,436          979,840          587,904       391,936            0
+ 90 131,124,684,718          873,680          524,208       349,472            0
+60.00% (524,208B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.99% (524,136B) 0x400857: _addLinkBefore (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+| ->59.99% (524,136B) 0x400B5B: addBackList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|   ->59.99% (524,136B) 0x400D13: addList (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|     ->59.99% (524,136B) 0x400E87: main (in /nfs/stak/users/huangwei/cs261/assignment/assignment3/a.out)
+|       
+->00.01% (72B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 91 131,124,905,000          767,520          460,512       307,008            0
+ 92 131,125,125,282          661,360          396,816       264,544            0
+ 93 131,125,345,564          555,200          333,120       222,080            0
+ 94 131,125,565,846          449,040          269,424       179,616            0
+ 95 131,125,786,128          342,880          205,728       137,152            0
+ 96 131,126,006,410          236,720          142,032        94,688            0
+ 97 131,126,226,692          130,560           78,336        52,224            0
+ 98 131,126,446,974           24,400           14,640         9,760            0
